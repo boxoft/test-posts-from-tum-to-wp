@@ -3,11 +3,9 @@
 require 'includes/functions.php';
 require 'includes/config.php';
 
-global $api_key, $wp_url, $wp_user, $wp_pass;
+global $api_key, $wp_url, $wp_user, $wp_pass, $tumblr_ids;
 
-$tumblr_ids = array(
-	'boxoft'
-);
+echo "\nBegin\n\n";
 
 foreach ($tumblr_ids as $tumblr_id)
 {
